@@ -1,0 +1,19 @@
+*{margin:0; padding: 0;}
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.join_box{
+    position: relative;
+}
+
+.back_art{
+    width: 550px;
+    height: 580px;
+}
+.join_title{
+    font-family: 'NanumSquare', sans-serif !important;
+}

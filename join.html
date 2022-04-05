@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/join.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div style="text-align: center; margin-top : 50px;" class = "join_box">
+        <img src="img/artboard.png" alt="" class="back_art">
+        <span class = "join_title">회원가입</span>
+    </div>
+    <form method="POST" action="php/join.php">
+        <table>
+            <tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="학번" id = "id" name = "id">
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="이름" id = "name" name = "name">
+                    </td>
+                </tr>
+            </tr>
+        </table>
+        <div>
+            <button type="submit">가입하기</button>
+        </div>
+    </form>
+</body>
+</html>
